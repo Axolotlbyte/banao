@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className + " bg-white text-black"}>
-        <header className="flex justify-between items-center px-24 py-5 bg-white">
+        <header className="md:flex hidden justify-between items-center px-24 py-5 bg-white">
           <Image
             className="relative flex-grow-0 "
             src="/assets/logo.png"

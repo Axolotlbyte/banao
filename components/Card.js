@@ -10,7 +10,7 @@ export default function Card({
   cardType,
 }) {
   return (
-    <div className="w-full border rounded-xl overflow-hidden">
+    <div className="w-full md:border shadow-lg rounded-xl overflow-hidden">
       {img ? (
         <Image
           className="relative w-full h-auto bg-black "
