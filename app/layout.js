@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
 
           <button className="flex">
             Create account.{" "}
-            <span className="text-blue-700 font-bold pl-1">It's free</span>
+            <span className="text-blue-700 font-bold pl-1">It&apos;s free</span>
             <svg
               width="24"
               height="24"
